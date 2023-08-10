@@ -10,7 +10,7 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait.jpg'
+import portraitImage from '@/images/portrait.jpeg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -41,7 +41,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
+        <title>About - Franklin Gomez</title>
         <meta
           name="description"
           content="I’m Spencer Sharp. I live in New York City, where I design the future."
@@ -61,47 +61,29 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the
-              future.
+            I'm Franklin Gomez, a passionate Front-End Developer and Software Engineer.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+                My journey into the world of tech began at the renowned full-stack bootcamp, 100Devs, where I honed my skills and discovered my love for crafting seamless digital experiences.
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
+              Off the screen, I'm an avid soccer enthusiast – you'll often find me cheering on both Real Madrid and Arsenal, fueling my competitive spirit. Baseball is another passion of mine, with the Red Sox holding a special place in my heart.
               </p>
               <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
+              When I'm not coding or catching a game, I'm immersed in the world of music production and DJing. I'm on a thrilling journey of learning the art of mixing beats, and in my downtime, I indulge in manga and anime, transporting myself to captivating realms
               </p>
               <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
+              As for my aspirations, I'm <em>dedicated</em> to making the web a more inclusive space for everyone. Professionally, I'm working towards the role of a Front-End Development Manager, while on a personal front, I'm on track to make my dream of owning a home a reality within the next two years.
+              </p>
+              <p>
+              Join me on this exciting ride as I blend technology, sports, music, and culture, all while striving to create a more accessible and dynamic digital landscape.
               </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="#" icon={TwitterIcon}>
-                Follow on Twitter
-              </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
-                Follow on Instagram
-              </SocialLink>
-              <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+              <SocialLink href="https://github.com/frankgomezdev" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
               <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
@@ -112,7 +94,7 @@ export default function About() {
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                spencer@planetaria.tech
+                franklingomezdev@gmail.com
               </SocialLink>
             </ul>
           </div>
