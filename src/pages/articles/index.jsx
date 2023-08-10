@@ -55,7 +55,7 @@ export default function ArticlesIndex({ articles }) {
             ))}
           </div> */}
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Kind of empty here, huh? Don't worry, blog coming very soon!
+            Kind of empty here, huh? Don&apos;t worry, blog coming very soon!
           </p>
         </div>
       </SimpleLayout>

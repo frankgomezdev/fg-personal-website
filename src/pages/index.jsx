@@ -296,7 +296,7 @@ export default function Home({ articles }) {
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Kind of empty here, huh? Don't worry, blog coming very soon!
+            Kind of empty here, huh? Don&apos;t worry, blog coming very soon!
           </p>
             {/* {articles.map((article) => (
               <Article key={article.slug} article={article} />
