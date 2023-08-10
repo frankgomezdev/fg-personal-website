@@ -61,20 +61,20 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I'm Franklin Gomez, a passionate Front-End Developer and Software Engineer.
+            I&apos;m Franklin Gomez, a passionate Front-End Developer and Software Engineer.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
                 My journey into the world of tech began at the renowned full-stack bootcamp, 100Devs, where I honed my skills and discovered my love for crafting seamless digital experiences.
               </p>
               <p>
-              Off the screen, I'm an avid soccer enthusiast – you'll often find me cheering on both Real Madrid and Arsenal, fueling my competitive spirit. Baseball is another passion of mine, with the Red Sox holding a special place in my heart.
+              Off the screen, I&apos;m an avid soccer enthusiast – you&apos;ll often find me cheering on both Real Madrid and Arsenal, fueling my competitive spirit. Baseball is another passion of mine, with the Red Sox holding a special place in my heart.
               </p>
               <p>
-              When I'm not coding or catching a game, I'm immersed in the world of music production and DJing. I'm on a thrilling journey of learning the art of mixing beats, and in my downtime, I indulge in manga and anime, transporting myself to captivating realms
+              When I&apos;m not coding or catching a game, I&apos;m immersed in the world of music production and DJing. I&apos;m on a thrilling journey of learning the art of mixing beats, and in my downtime, I indulge in manga and anime, transporting myself to captivating realms
               </p>
               <p>
-              As for my aspirations, I'm <em>dedicated</em> to making the web a more inclusive space for everyone. Professionally, I'm working towards the role of a Front-End Development Manager, while on a personal front, I'm on track to make my dream of owning a home a reality within the next two years.
+              As for my aspirations, I&apos;m <em>dedicated</em> to making the web a more inclusive space for everyone. Professionally, I&apos;m working towards the role of a Front-End Development Manager, while on a personal front, I&apos;m on track to make my dream of owning a home a reality within the next two years.
               </p>
               <p>
               Join me on this exciting ride as I blend technology, sports, music, and culture, all while striving to create a more accessible and dynamic digital landscape.
