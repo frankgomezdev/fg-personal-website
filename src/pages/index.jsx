@@ -12,6 +12,8 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
+import logoFirebolt from '@/images/logos/firebolt.svg'
+import logoAccenture from '@/images/logos/accenture.svg'
 import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
@@ -139,22 +141,25 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
+      company: 'Firebolt Web Designs',
+      title: 'Owner & Lead Developer',
+      logo: logoFirebolt,
+      start: '2024',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
+    },
+    {
       company: 'Accenture',
-      title: 'Business Architecture Analyst',
-      logo: logoPlanetaria,
+      title: 'Software Engineer',
+      logo: logoAccenture,
       start: '2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
-    // {
-    //   company: 'Airbnb',
-    //   title: 'Product Designer',
-    //   logo: logoAirbnb,
-    //   start: '2014',
-    //   end: '2019',
-    // },
     // {
     //   company: 'Facebook',
     //   title: 'iOS Software Engineer',
@@ -211,10 +216,10 @@ function Resume() {
           </li>
         ))}
       </ol>
-      {/* <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
+      <Button href="#" variant="secondary" className="group mt-6 w-full">
+        Download Resume
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button> */}
+      </Button>
     </div>
   )
 }
@@ -250,22 +255,25 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>
-          Franklin Gomez - Web developer, freelancer, and music producer.
-        </title>
+        <title>Franklin Gomez - Software Engineer & AI Engineer.</title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I’m Franklin, a Software Engineer and AI Engineer based in Boston.
+            As the owner of Firebolt Web Designs, I specialize in creating
+            innovative software solutions and developing AI-driven applications
+            that help local small businesses thrive in the digital landscape"
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Web developer, freelancer, and music producer.
+            Software Engineer and AI Engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Franklin, a web designer and tech consultant based in Boston. I’m the owner of Firebolt Web Designs, where I design & develop
-            websites that empower local, small businesess to leave their footprint on the web.
+            I’m Franklin, a Software Engineer and AI Engineer based in Boston.
+            As the owner of Firebolt Web Designs, I specialize in creating
+            innovative software solutions and developing AI-driven applications
+            that help local small businesses thrive in the digital landscape.
           </p>
           <div className="mt-6 flex gap-6">
             {/* <SocialLink
@@ -275,16 +283,22 @@ export default function Home({ articles }) {
             /> */}
             <SocialLink
               href="https://instagram.com/frvnk.g"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com/franklingomezdev"
+              href="https://github.com/frankgomezdev"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com/fgomezj"
+              href="https://www.linkedin.com/in/fgomezj/"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
@@ -295,9 +309,9 @@ export default function Home({ articles }) {
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Kind of empty here, huh? Don&apos;t worry, blog coming very soon!
-          </p>
+            <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+              Kind of empty here, huh? Don&apos;t worry, blog coming very soon!
+            </p>
             {/* {articles.map((article) => (
               <Article key={article.slug} article={article} />
             ))} */}
